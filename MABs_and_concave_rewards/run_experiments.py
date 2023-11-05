@@ -1,6 +1,6 @@
 # # A Comparison of Bandit Algorithms
 
-from MABs_and_concave_rewards.BanditExperimentation import *
+from BanditExperimentation import *
 
 
 # ## The Optimistic Greedy Power Arm
