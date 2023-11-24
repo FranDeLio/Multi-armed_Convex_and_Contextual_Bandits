@@ -1,26 +1,8 @@
 import numpy as np
 
-"""
-    System Setup
-"""
-
-# create 5 arms in a fixed order
+# create 200 arms in a fixed order
 arm_order = list(range(0, 200))
-
-# save the number of arms
 NUM_ARMS = len(arm_order)
-
-"""
-    Display Setup
-"""
-
-# display all floating point numbers to 3 decimal places
-np.set_printoptions(formatter={'float': lambda x: "{0:0.3f}".format(x)})
-
-"""
-    Helper Functions
-"""
-
 
 # return the index of the largest value in the supplied list
 # arbitrarily select between the largest values in the case of a tie
